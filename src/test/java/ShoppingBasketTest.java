@@ -7,6 +7,6 @@ public class ShoppingBasketTest {
     @Test
     void totalOfEmptyBasket(){
         ShoppingBasket basket = new ShoppingBasket();
-        assertEquals(0, basket.getTotal(), 0);
+        assertEquals(1, basket.getTotal(), 0);
     }
 }
